@@ -11,13 +11,13 @@
     "url": "git+https://github.com/arfiaaAmmar/ikhwan-takaful.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ammar Hazim",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/arfiaaAmmar/ikhwan-takaful/issues"
   },
   "homepage": "https://github.com/arfiaaAmmar/ikhwan-takaful#readme",
-  "devDependencies": {
-    "sass": "^1.39.0"
+  "dependencies": {
+    "bulma": "^0.9.3"
   }
 }
