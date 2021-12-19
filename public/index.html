@@ -21,7 +21,7 @@
             <!-- Website Logo -->
             <div>
               <a href="#" class="flex items-center py-4 px-2">
-                <h3 class="text-2xl">Ikhwan Ayob</h3>
+                <h3 class="md:text-2xl">Ikhwan Ayob</h3>
               </a>
             </div>
             <!-- Primary Navbar items -->
@@ -77,14 +77,39 @@
                 >Contact</a
               >
             </div>
+
+            <div id="burger" class="md:hidden space-y-2 mt-6">
+              <div class="w-8 h-0.5 bg-gray-600"></div>
+              <div class="w-8 h-0.5 bg-gray-600"></div>
+              <div class="w-8 h-0.5 bg-gray-600"></div>
+            </div>
           </div>
         </div>
       </nav>
-      <div id="highlight" class="flex flex-grow justify-between">
-        <div class="flex flex-1 bg-white">
-          <div class="description w-3/4 ml-16 mt-40 text-left">
-            <h2 class="text-7xl">Hi, I'm Ikhwan</h2>
-            <h5 class="text-4xl mt-3">
+      <div id="highlight" class="md:flex grid grid-rows-2 md:grid-cols-2">
+        <div
+          class="
+            bg-white
+            row-start-2
+            md:col-start-1 md:row-end-2
+            mt-6
+            ml-6
+            md:flex-1
+          "
+        >
+          <div
+            class="
+              description
+              w-3/4
+              md:ml-16 md:mt-40
+              text-left
+              justify-items-center
+            "
+          >
+            <h2 class="text-4xl md:text-7xl">
+              Hi, I'm <span class="text-7xl">Ikhwan</span>
+            </h2>
+            <h5 class="text-xl md:text-4xl mt-3">
               Takaful Agent | Chef | Father | Husband
             </h5>
             <p class="mt-6">
@@ -98,18 +123,25 @@
             </div>
           </div>
         </div>
-        <div class="flex-1">
+        <div
+          class="
+            h-1/4
+            row-start-1 row-end-2
+            col-span-2
+            md:col-start-2 md:flex-1
+          "
+        >
           <img
             src="img/cover.jpg"
             alt=""
-            class="object-cover w-auto h-screen z-0"
+            class="object-cover w-full h-full md:h-screen"
           />
         </div>
       </div>
     </section>
-    <section id="about-me">
-      <div class="py-10 px-24 bg-neutral-700 about-me container">
-        <h3 class="py-2 text-3xl font-bold text-slate-200">About me</h3>
+    <section id="about-me" class="bg-neutral-700">
+      <div class="sm:px-24 sm:py-16 lg:py-10 lg:px-24">
+        <h3 class="my-2 text-3xl font-bold text-slate-200">About me</h3>
         <p class="text-slate-200">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit qui
           blanditiis quisquam fugiat vero sequi similique alias obcaecati?
@@ -122,46 +154,49 @@
         </p>
       </div>
     </section>
-    <section
-      id="portfolio"
-      class="bg-neutral-900 text-white py-14 flex flex-row space-x-12"
-    >
-      <div class="flex-1 text-left">
-        <img
-          src="img/icons/takaful.svg"
-          alt=""
-          class="fill-amber-300 h-auto w-1/6"
-        />
-
-        <h5 class="font-bold text-lg">Takaful Advisor</h5>
-        <p class="text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel culpa
-          eius dignissimos
-        </p>
-        <button class="bg-yellow-600">Learn More</button>
-      </div>
-      <div class="flex-1">
-        <img src="img/icons/realtor.svg" alt="" class="h-auto w-1/6" />
-        <h5 class="font-bold text-lg">Real Estate Negotiator</h5>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis,
-          consequatur.
-        </p>
-        <button class="bg-yellow-600">Learn More</button>
-      </div>
-      <div class="flex-1">
-        <img src="img/icons/chef.svg" alt="" class="h-auto w-1/6" />
-        <h5 class="font-bold text-lg">Chef</h5>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus,
-          itaque.
-        </p>
-        <button class="bg-yellow-600">Learn More</button>
+    <section id="portfolio" class="bg-neutral-900">
+      <div class="text-white py-16 px-12 flex flex-row space-x-8">
+        <div class="flex-1">
+          <img src="img/icons/takaful.svg" alt="" class="h-auto w-1/6" />
+          <h5 class="font-bold text-lg">Takaful Advisor</h5>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel culpa
+            eius dignissimos
+          </p>
+          <button
+            class="
+              mt-6
+              bg-yellow-600
+              p-1
+              hover:cursor-pointer hover:-scale-x-110 hover:scale-y-110
+            "
+          >
+            Learn More
+          </button>
+        </div>
+        <div class="flex-1">
+          <img src="img/icons/realtor.svg" alt="" class="h-auto w-1/6" />
+          <h5 class="font-bold text-lg">Real Estate Negotiator</h5>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Perferendis, consequatur.
+          </p>
+          <button class="mt-6 bg-yellow-600 p-1">Learn More</button>
+        </div>
+        <div class="flex-1">
+          <img src="img/icons/chef.svg" alt="" class="h-auto w-1/6" />
+          <h5 class="font-bold text-lg">Chef</h5>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus,
+            itaque.
+          </p>
+          <button class="mt-6 bg-yellow-600 p-1">Learn More</button>
+        </div>
       </div>
     </section>
     <footer class="bg-orange-900 grid grid-cols-3 justify-evenly">
       <div>
-        <div class="">Ikhwan Ayob</div>
+        <div class="font-bold text-white">Ikhwan Ayob</div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
           distinctio!
