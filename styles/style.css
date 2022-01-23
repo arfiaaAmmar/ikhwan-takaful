@@ -1,0 +1,112 @@
+html {
+  scroll-behavior: smooth;
+}
+
+HTML,
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+nav li a {
+  font-size: 1.2rem;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+#logo-container {
+  font-size: 1.8rem;
+}
+
+.banner_title {
+  margin-top: 0;
+}
+
+.banner-greet {
+  margin: 0;
+}
+
+.banner-detail {
+  margin-top: 1rem;
+}
+
+.banner_summary {
+  margin: 4rem;
+}
+
+#highlight:first-child {
+  height: 100vh;
+  width: 100vw;
+}
+
+.cover_pic {
+  height: 100%;
+  overflow: hidden;
+}
+
+.cover_pic img {
+  object-fit: cover;
+  position: relative;
+  left: -25%;
+  width: 125%;
+  height: 100vh;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+#portfolio {
+  margin: 0;
+  background-color: rgb(228, 228, 228);
+}
+
+#portfolio h3 {
+  margin: 0;
+  padding: 5rem 0 1rem 0;
+}
+
+footer.page-footer {
+  margin: 0;
+}
