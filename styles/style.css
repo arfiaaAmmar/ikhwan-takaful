@@ -31,7 +31,6 @@ p {
 }
 
 #mobile-profile-pic {
-  /* display: none; */
   width: 20%;
   margin: 0 auto;
   margin-top: 2rem;
@@ -54,14 +53,22 @@ p {
   margin-top: 1rem;
 }
 
-.banner_summary {
-  margin: 4rem;
+.banner-summary {
+  margin: 4rem 2rem 2rem 2rem;
+}
+
+.banner-summary p {
+  line-height: 1.8;
 }
 
 #highlight {
   height: 100vh;
   width: 100vw;
   margin-bottom: 0;
+}
+
+#highlight div:nth-of-type(2){
+  padding: 0;
 }
 
 .cover_pic {
@@ -79,10 +86,7 @@ p {
 
 #about-me {
   margin: 0;
-}
-
-.about-me-description{
-  padding-top: 2rem;
+  padding: 0;
 }
 
 .thumbnail-pic {
