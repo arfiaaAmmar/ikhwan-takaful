@@ -4,6 +4,7 @@ html {
 
 HTML,
 body {
+  height: 100vh;
   margin: 0px;
   padding: 0px;
   border: 0px;
@@ -41,6 +42,22 @@ p {
   margin-top: 1rem;
 }
 
+#highlight {
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 0;
+}
+
+#highlight-description {
+  width: 100vw;
+  margin: auto;
+}
+
+#highlight div:nth-of-type(2){
+  padding: 0;
+}
+
+
 img.responsive-img, video.responsive-video {
   max-width: 30%;
   height: auto;
@@ -59,21 +76,23 @@ img.responsive-img, video.responsive-video {
 }
 
 .banner-summary {
-  margin: 3rem 2rem 2rem 2rem;
+  width: 90%;
+  padding-top: 2vh;
+  margin: auto;
 }
 
 .banner-summary p {
   line-height: 1.8;
 }
 
-#highlight {
-  height: 100vh;
-  width: 100vw;
-  margin-bottom: 0;
+#skills{
+  width: 90%;
+  margin: auto;
 }
 
-#highlight div:nth-of-type(2){
-  padding: 0;
+#skills img {
+  width: 100%;
+  height: auto;
 }
 
 .cover_pic {
@@ -91,7 +110,7 @@ img.responsive-img, video.responsive-video {
 
 #about-me {
   margin: 0;
-  padding: 0;
+  padding: 0, 2rem, 2rem;
 }
 
 #about-me div:first-child img{
@@ -154,7 +173,8 @@ img.responsive-img, video.responsive-video {
 
 #portfolio h3 {
   margin: 0;
-  padding: 5rem 0 1rem 0;
+  padding-top: 4vh;
+  padding-bottom: 2vh;
 }
 
 footer.page-footer {
