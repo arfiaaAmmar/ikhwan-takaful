@@ -5,9 +5,13 @@ html {
 HTML,
 body {
   height: 100vh;
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+main {
+  margin-bottom: 0;
 }
 
 nav ul a,
