@@ -45,6 +45,7 @@ p {
 #highlight {
   height: 100vh;
   width: 100vw;
+  padding-top: 1rem;
   margin-bottom: 0;
 }
 
@@ -121,11 +122,11 @@ img.responsive-img, video.responsive-video {
   font-size: 1.5rem;
 }
 
-.thumbnail-pic {
-  width: 20%;
+#thumbnail-pic {
+  padding: 0;
 }
 
-.thumbnail-pic img {
+#thumbnail-pic img {
   width: 100%;
 }
 
