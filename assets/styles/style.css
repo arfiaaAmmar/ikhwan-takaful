@@ -1,0 +1,246 @@
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+#highlight {
+  background-color: #C4C4C4;
+}
+
+#highlight-btn {
+  width: 40%;
+  height: 40%;
+  background-color: transparent;
+  border: 1px solid #C69964;
+  border-radius: 15px;
+}
+
+#portfolio {
+  background-color: #252525;
+}
+
+#about-me {
+  background-color: #C6C6C6
+}
+
+#about-me-profile-pic img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#about-me p {
+  text-align: justify;
+}
+
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #18d26e;
+}
+
+
+/* -------------------------------- Email -------------------------------- */
+
+#contact-me {
+  background-color: rgb(74, 74, 74);
+}
+
+label {
+  color: white;
+}
+
+input {
+  margin: auto;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+.form-group {
+  text-align: center;
+  margin: 1rem;
+}
+
+#email,
+#name,
+#subject {
+  color: white;
+  border: 0;
+  background-color: rgb(37, 37, 37);
+}
+
+#message {
+  color: white;
+  border: 0;
+  background-color: rgb(37, 37, 37);
+}
+
+/* -------------------------------- Footer -------------------------------- */
+
+footer {
+  background-color: #252525
+}
+
+#footer-text h3 {
+  color: #C6C6C6;
+  font-size: 1rem;
+}
+
+#footer-text p {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+#footer-text>p>a {
+  color: #C69964;
+}
+
+
+/* Sidenav button */
+#sidenavBtn {
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  border-radius: 50%;
+  background-color: #C4C4C4;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  right: 0;
+  background-color: #111;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav */
+@media screen and (max-width: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+/* On bigger screen, layout change */
+@media (min-width: 768px) {
+
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky+main {
+    padding-top: 102px;
+  }
+
+  #header {
+    padding-top: 2rem;
+    width: 100%;
+    height: 10vh;
+    background-color: #C4C4C4;
+  }
+
+  #header a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #highlight-profile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  #highlight-summary {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  /*----------------------------------------------------Email ------------------ */
+
+  #email,
+  #name,
+  #subject {
+    width: 60%;
+  }
+
+
+}

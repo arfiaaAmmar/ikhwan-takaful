@@ -1,168 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Ammar Hazim</title>
 
-    <!-- CSS  -->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link
-      href="styles/materialize.css"
-      type="text/css"
-      rel="stylesheet"
-      media="screen,projection"
-    />
-    <link
-      href="styles/style.css"
-      type="text/css"
-      rel="stylesheet"
-      media="screen,projection"
-    />
-  </head>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <body>
-    <nav class="white z-depth-0" role="navigation">
-      <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo">Ikhwan Ayob</a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#">Home</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#article">Article</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+  <title>Ikhwan Takaful</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-        <ul id="nav-mobile" class="sidenav">
-          <div id="sidenav-profile-pic" class="center-align hide-on-med-and-up">
-            <img class="responsive-img circle z-depth-3" src="assets/mobile-profile-pic.jpg" alt="">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/styles/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 d-none d-sm-block">
+          <h1>Ikhwan Takaful</h1>
+        </div>
+        <nav id="navbar" class="col-sm-2 col-md-8">
+          <ul class="d-none d-sm-block d-md-flex justify-content-md-end list-unstyled">
+            <li><a class="nav-link" href="#header">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#resume">Resume</a></li>
+            <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+
+          <!-- mobile sidebar -->
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Resume</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
           </div>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Recent Work</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
+          <div class="d-block d-sm-none">
+            <div id="sidenavBtn" class="d-flex justify-content-center align-items-center"><i class="bi bi-list"
+                onclick="openNav()"></i></div>
+          </div>
+        </nav><!-- .navbar -->
       </div>
-    </nav>
+    </div>
+  </header>
 
-    <main>
-      <section id="highlight" class="row">
-          <div id="index-banner">
-            <div id="mobile-profile-pic " class="center-align hide-on-med-and-up">
-              <img class="responsive-img circle z-depth-3" src="assets/mobile-profile-pic.jpg" alt="">
-            </div>
-            <div id="highlight-description" class="col s12 m6 l6">
-              <br /><br />
-              <div class="banner_title">
-                <h1 class="banner-greet center black-text text-lighten-2 text-align-left">
-                  Hi, I'm Ikhwan
-                </h1>
-                <h3 class="banner-detail center black-text light">
-                  Takaful | Property Negotiator
-                </h3>
-                <h6 class="banner-summary center black-text light l4">
-                  Currently residing in Lumut, Perak and working as a fulltime Chef. I’m always eager to serve the community. Feel free to contact me.
-                </h6>
+  <main>
+    <section id="highlight">
+      <div class="container">
+        <div class="row">
+          <div id="highlight-summary" class="col-md-6 text-left">
+            <h1>Hi' I'm Ikhwan Ayob</h1>
+            <p>Takaful | Real Estate | Chef </p>
+            <p class="d-none d-sm-block">Currently residing in Lumut, Perak and working as a fulltime Chef. I’m always
+              eager to serve the community.
+              Feel free to contact me.</p>
+            <div>
+              <div class="social-links">
+                <a href="https://wa.me/601111260463?text=Hello,%20I'm%20inquiring%20for%20Takaful*" target="_blank"><img
+                    src="./assets/icons/whatsapp.png" alt="whatsapp icon"></a>
+                <a href="" target="_blank"><img src="./assets/icons/linkedin.png" alt="linkedin icon"></a>
+                <a href="https://www.instagram.com/ikhwan.b.ayob/" target="_blank"><img
+                    src="./assets/icons/instagram.png" alt="instagram icon"></a>
+                <a href="https://www.facebook.com/IkhwanAyobTakafulAdvisor" target="_blank"><img
+                    src="./assets/icons/facebook.png" alt="facebook icon"></a>
               </div>
-              <div id="skills" class="container">
-                  <div class="row">
-                    <div class="col s4 l4">
-                      <div class="icon-block">
-                        <h2 class="center brown-text">
-                          <img src="assets/icons/takaful 2.svg" alt="">
-                        </h2>
-                        <h5 class="center flow-text">Takaful Advisor</h5>
-                      </div>
-                    </div>
-                    <div class="col s4 l4">
-                      <div class="icon-block">
-                        <h2 class="center brown-text">
-                          <img src="assets/icons/takaful 1.svg" alt="">
-                        </h2>
-                        <h5 class="center flow-text">Property Advisor</h5>
-                      </div>
-                    </div>
-                    <div class="col s4 l4">
-                      <div class="icon-block">
-                        <h2 class="center brown-text">
-                          <img src="assets/icons/chef 1.svg" alt="">
-                        </h2>
-                        <h5 class="center flow-text">Cook</h5>
+              <button id="highlight-btn" onclick="showMail()" class="mt-4">Contact Me</button>
+            </div>
+          </div>
+          <div id="highlight-profile" class="col-md-6">
+            <img src="./assets/profile-pic.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="pb-4 pt-4">
+      <div class="container">
+        <div class="pt-md-4 row">
+          <div class="row col-md">
+            <div class="col-3 col-md-12"><img src="./assets/icons/takaful 2.svg" alt="" /></div>
+            <div class="col-9 col-md-12">
+              <h5 class="text-light pt-4">Takaful Advisor</h5>
+              <p id="test" class="text-light">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Voluptates vero magni minus eos modi ratione
+                sapiente voluptatum repellendus deleniti architecto!</p>
+            </div>
+          </div>
+          <div class="row col-md">
+            <div class="col-3 col-md-12"><img src="./assets/icons/takaful 1.svg" alt="" /></div>
+            <div class="col-9 col-md-12">
+              <h5 class="text-light pt-4">Real Estate Negotiator</h5>
+              <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Minus obcaecati nisi quaerat impedit fugiat
+                quisquam aspernatur sint expedita voluptatibus minima!</p>
+            </div>
+          </div>
+          <div class="row col-md">
+            <div class="col-3 col-md-12"><img src="./assets/icons/chef 1.svg" alt="" /></div>
+            <div class="col-9 col-md-12">
+              <h5 class="text-light pt-4">Chef</h5>
+              <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicingelit. Recusandae minima nostrum
+                nobis fugiat hic laudantium suscipit saepe repellat magni aliquid?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- About me section -->
+    <section id="about-me" class="pb-md-4">
+      <div id="about-me-profile-pic" class="m-md-auto m-0 p-0"><img src="./assets/profile-pic-round.jpg" alt=""
+          class="img-fluid"></div>
+      <div class="container pt-3 pb-3">
+        <h3 class="text-center">About Me</h3>
+        <div class="row">
+          <div class="col-md-12" data-aos="fade-left">
+            <p class="mt-2">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nihil tempore optio corporis labore autem,
+              impedit nisi, illo commodi unde ratione, vel aliquid pariatur rem nam exercitationem sapiente nostrum cum.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, dolores.
+            </p>
+            <div id="about-me-info" class="row">
+              <div class="col-md-6">
+                <ul class="list-unstyled">
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>3 March 2000</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a
+                        href="https://yongwei.netlify.app/">yongwei.netlify.app</a> </span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>
+                      <a href="tel:019-5775029">+6019-577 5029</a> </span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Penang , Malaysia</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul class="list-unstyled">
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Education Level:</strong> <span>Bachelor
+                      Degrees</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a
+                        href="mailto:fackerlee@gmail.com">fackerlee@gmail.com</a></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Certification:</strong> <span><a href="">Click
+                        here</a></span></li>
+                </ul>
+              </div>
+            </div>
+            
+            <!-- ======= Skills  ======= -->
+            <div class="skills container">
+
+              <div class="section-title">
+                <h2>Skills</h2>
+              </div>
+
+              <div class="row skills-content">
+
+                <div class="col-lg-6">
+
+                  <div class="progress">
+                    <span class="skill">HTML & CSS <i class="val">70%</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                        aria-valuemax="100">
                       </div>
                     </div>
                   </div>
+
+                  <div class="progress">
+                    <span class="skill">Adobe Photoshop & Illustration <i class="val">70%</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                        aria-valuemax="100">
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
+
+                <div class="col-lg-6">
+
+                  <div class="progress">
+                    <span class="skill">Java & Python <i class="val">50%</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                        aria-valuemax="100">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="progress">
+                    <span class="skill">Adobe After Effect & Premium Pro <i class="val">60%</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100">
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
               </div>
-          </div>
-          <div class="col s12 m6 l6 cover_pic hide-on-small-only">
-            <img src="./assets/profile_pic.jpg" alt="" />
-          </div>
-      </section>
 
-        <section id="about-me" class="row grey lighten-1">
-          <div id="thumbnail-pic" class="col s12 m3 l4 show-on-med-and-up">
-            <img src="assets/profile_pic.jpg" alt="">
-          </div>
-          <div class="col s12 m9 l8">
-            <h4>About Me</h4>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, dicta corporis dolorum dolore maxime quae vel id officia ad itaque harum expedita, beatae recusandae nobis, fugiat labore ipsam ipsa quas!</p>
-          </div>
-        </section>
+            </div><!-- End Skills -->
 
-      <section id="portfolio" class="center row brown lighten-3">
-          <h3 class="flow-text">Recent Work</h3>
-      </section>
-    </main>
 
-    <footer class="page-footer teal">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Company Bio</h5>
-            <p class="grey-text text-lighten-4">
-              We are a team of college students working on this project like
-              it's our full time job. Any amount would help support and continue
-              development on this project and is greatly appreciated.
-            </p>
           </div>
-          <div class="col l3 s12">
-            <h5 class="white-text">Settings</h5>
-            <ul>
-              <li><a class="white-text" href="#!">Link 1</a></li>
-              <li><a class="white-text" href="#!">Link 2</a></li>
-              <li><a class="white-text" href="#!">Link 3</a></li>
-              <li><a class="white-text" href="#!">Link 4</a></li>
-            </ul>
+    </section>
+    <section id="contact-me">
+      <div class="container pt-4 pb-4">
+        <div class="pt-5 text-center display-flex justify-content-center">
+          <div class="section-title m-auto pb-2">
+            <h3 class="text-white text-center">Contact</h3>
+            <p class="text-white text-center">I’m always open to discussing for website design work or partnership
+              opportunities.</p>
           </div>
-          <div class="col l3 s12">
-            <h5 class="white-text">Connect</h5>
-            <ul>
-              <li><a class="white-text" href="#!">Link 1</a></li>
-              <li><a class="white-text" href="#!">Link 2</a></li>
-              <li><a class="white-text" href="#!">Link 3</a></li>
-              <li><a class="white-text" href="#!">Link 4</a></li>
-            </ul>
-          </div>
+          <form class="m-auto" action="https://formsubmit.co/1cac858f578f5051ca41185001f59480" method="POST">
+            <div id="email-input" class="form-group email-input">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp"
+                placeholder="Enter email" required />
+            </div>
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input name="name" type="text" class="form-control" id="name" placeholder="Your full name." />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject." />
+            </div>
+            <div class="form-group">
+              <label for="message"><span>Message</span></label>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message"
+                class="form-control" type="text"></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary">Submit</button>
+          </form>
         </div>
       </div>
-      <div class="footer-copyright">
-        <div class="container">
-          Made by
-          <a class="brown-text text-lighten-3" href="http://materializecss.com"
-            >Materialize</a
-          >
-        </div>
+    </section>
+    <footer class="p-3">
+      <div class="social-links text-center">
+        <a href="https://wa.me/601111260463?text=Hello,%20I'm%20inquiring%20for%20Takaful*" target="_blank"><img
+            src="./assets/icons/whatsapp.png" alt="whatsapp icon"></a>
+        <a href="" target="_blank"><img src="./assets/icons/linkedin.png" alt="linkedin icon"></a>
+        <a href="https://www.instagram.com/ikhwan.b.ayob/" target="_blank"><img src="./assets/icons/instagram.png"
+            alt="instagram icon"></a>
+        <a href="https://www.facebook.com/IkhwanAyobTakafulAdvisor" target="_blank"><img
+            src="./assets/icons/facebook.png" alt="facebook icon"></a>
+      </div>
+      <div id="footer-text" class="mt-4 text-white text-center">
+        <h3>Ikhwan Ayob</h3>
+        <p>All rights are reserved to Ikhwan Ayob. This page was developed in partnership with <a
+            class="text-decoration-none" href="">arfiaatech.my</a>.</p>
       </div>
     </footer>
+  </main>
 
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
-  </body>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
