@@ -218,7 +218,8 @@ footer {
     background-color: #C4C4C4;
   }
 
-  #header a {
+  #header a,b {
+    height: 5vh;
     text-decoration: none;
     color: black;
   }
@@ -241,6 +242,4 @@ footer {
   #subject {
     width: 60%;
   }
-
-
 }
